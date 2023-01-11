@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="preloaderContainer">
+        <div id="preloader">
+            <h1>Instructions</h1>
+            <span>
+                <strong>
+                    - Lütfen sadece Bilgisayarda oynayınız.. <br><br>
+                    - Oyunun amacı olabildiğince çok para kazanmaktır. <br><br>
+                    - Oyun başında size verilen bakiye ile araba ticareti yaparsınız. Her araba üzerinde
+                    yazdığı olasılık değeri kadar satılabilirdir. <br><br>
+                    - Satılan arabalar alış fiyatlarının 1.5 katı kadar para getirir. Eğer arabanız başarılı şekilde
+                    satılırsa toplam paranız artar ve daha fazla araba alabilirsiniz. <br><br>
+                    - Araçlar ilk satın alındıklarında 'Garaj' kısmına giderler. Onları satışa koyup koymayacağınızı
+                    elinizdeki para ve piyasadaki fırsatlara bakarak değerlendirebilirsiniz. <br><br>
+                    - Satılan arabaların gelirleri toplam paranıza eklenir ve 'Total Earnings' kısmından elde ettiğiniz
+                    geliri görebilirsiniz.<br><br>
+                    - Araçların yüklenme süreleri henüz yoktur. <br><br>
+                    - Oyun içinde gördüğünüz bug ları lütfen bildiriniz. <br><br>
+                </strong>
+            </span>
+            <button id="play"><strong>Got It !</strong></button>
+        </div>
+
+    </div>
+
+
+
+    <div id="container">
+
+        <div id="buyCar">
+
+            <h1 class="header">Buy</h1>
+
+
+            <div id="cardContainer">
+
+                <div class="card">
+                    <h2>Toyota</h2>
+                    <img src="https://images.prismic.io/findandfundmycarcom/00d62ce4-ee32-4eac-b764-b8423b018034_Toyota+Corolla.jpg?auto=compress,format&rect=0,96,2124,1200&w=2124&h=1200"
+                        alt="">
+                    <li id="possibility" value="70">possibility: 70%</li>
+                    <li id="price" value="4120">Price: 4.120$</li>
+                    <li id="duration" value="2">Duration: 2min</li>
+                    <button id="buy">Buy</button>
+                </div>
+
+                <div class="card">
+                    <h2>Mercedes</h2>
+                    <img src="https://images.pexels.com/photos/3729464/pexels-photo-3729464.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                        alt="">
+                    <li id="possibility" value="50">possibility: 50%</li>
+                    <li id="price" value="18750">Price: 18.750$</li>
+                    <li id="duration" value="2">Duration: 3min</li>
+                    <button id="buy">Buy</button>
+                </div>
+
+                <div class="card">
+                    <h2>Bugatti</h2>
+                    <img src="https://cdn.motor1.com/images/mgl/OOPXL/s3/bugatti-nin-gizli-konsept-modelleri.webp"
+                        alt="">
+                    <li id="possibility" value="10">possibility: 10%</li>
+                    <li id="price" value="79540">Price: 79.540$</li>
+                    <li id="duration" value="18">Duration: 17min</li>
+                    <button id="buy">Buy</button>
+                </div>
+
+                <div class="card">
+                    <h2>Volkswagen</h2>
+                    <img src="https://images.prismic.io/findandfundmycarcom/6f018e3b-7c43-4c06-adfd-b28f81554825_VW+ID.jpg?auto=compress,format&rect=13,0,2100,1392&w=2100&h=1392"
+                        alt="">
+                    <li id="possibility" value="60">possibility: 60%</li>
+                    <li id="price" value="9760">Price: 9.760$</li>
+                    <li id="duration" value="4">Duration: 3min</li>
+                    <button id="buy">Buy</button>
+                </div>
+
+                <div class="card">
+                    <h2>Car Name</h2>
+                    <img src="https://info.glass.com/wp-content/uploads/2018/01/Lidar.jpg" alt="">
+                    <li id="possibility" value="90">possibility: 90%</li>
+                    <li id="price" value="355">Price: 355$</li>
+                    <li id="duration" value="2">Duration: 1min</li>
+                    <button id="buy">Buy</button>
+                </div>
+
+                <div class="card">
+                    <h2>Maserati</h2>
+                    <img src="https://maserati.scene7.com/is/image/maserati/maserati/international/HomePage/Hero/models/LUX7417-1_desktop.jpg?$1920x2000$&fit=constrain"
+                        alt="">
+                    <li id="possibility" value="20">possibility: 20%</li>
+                    <li id="price" value="53530">Price: 53.530$</li>
+                    <li id="duration" value="15">Duration: 14min</li>
+                    <button id="buy">Buy</button>
+                </div>
+
+                <div class="card">
+                    <h2>Fiat</h2>
+                    <img src="https://carsguide-res.cloudinary.com/image/upload/f_auto%2Cfl_lossy%2Cq_auto%2Ct_default/v1/editorial/Fiat_500_front.jpg"
+                        alt="">
+                    <li id="possibility" value="80">possibility: 80%</li>
+                    <li id="price" value="2600">Price: 2.600$</li>
+                    <li id="duration" value="2">Duration: 1min</li>
+                    <button id="buy">Buy</button>
+                </div>
+
+                <div class="card">
+                    <h2>Ferrari</h2>
+                    <img src="https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fcom.ft.imagepublish.upp-prod-eu.s3.amazonaws.com%2Fd9dea922-fc01-11e5-b3f6-11d5706b613b?fit=scale-down&source=next&width=700"
+                        alt="">
+                    <li id="possibility" value="40">possibility: 40%</li>
+                    <li id="price" value="23985">Price: 23.985$</li>
+                    <li id="duration" value="6">Duration: 5min</li>
+                    <button id="buy">Buy</button>
+                </div>
+
+                <div class="card">
+                    <h2>Tire</h2>
+                    <img src="https://hips.hearstapps.com/hmg-prod/amv-prod-cad-assets/wp-content/uploads/2017/09/tires-626x382.jpg?fill=2:1&resize=640:*"
+                        alt="">
+                    <li id="possibility" value="100">possibility: 100%</li>
+                    <li id="price" value="45">Price: 45$</li>
+                    <li id="duration" value="1">Duration: 0min</li>
+                    <button id="buy">Buy</button>
+                </div>
+
+                <div class="card">
+                    <h2>Nissan</h2>
+                    <img src="https://thumbor.forbes.com/thumbor/fit-in/960x600/https://www.forbes.com/wheels/wp-content/uploads/2022/05/2023_Nissan_Z_Gallery1.jpg"
+                        alt="">
+                    <li id="possibility" value="30">possibility: 30%</li>
+                    <li id="price" value="31635">Price: 31.635$</li>
+                    <li id="duration" value="10">Duration: 10min</li>
+                    <button id="buy">Buy</button>
+                </div>
+
+
+
+            </div>
+
+            <hr>
+
+            <h1 class="header">Processing</h1>
+
+            <div id="processCarContainer">
+
+
+
+            </div>
+
+        </div>
+
+
+        <div id="garage">
+
+            <h1 class="header">Garage</h1>
+
+
+            <div id="garageContainer">
+
+            </div>
+            <hr>
+
+
+
+
+            <div id="dashboard">
+                <h1 class="header">Dashboard</h1>
+                <li class="info" id="totalMoney" value="45000">Total Money: 45.000$</li>
+                <li class="info" id="totalTime" value="0">Total Time: -</li>
+                <li class="info" id="totalEarning" value="0">Total Earning: -</li>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
