@@ -41,7 +41,7 @@ const buttonPressed = e => {
             thisProcessButton = e.target;
             garageContainer.removeChild(thisProcessButton.parentElement);
             processCarContainer.appendChild(thisProcessButton.parentElement);
-            // totalMoney.innerHTML = `Total Money:${totalMoney.value}$`;
+            totalMoney.innerHTML = `Total Money:${totalMoney.value}$`;
 
 
 
@@ -49,7 +49,7 @@ const buttonPressed = e => {
                 totalEarning.value = totalEarning.value + price * (15 / 10);
                 totalEarning.innerText = `Total Earning:${totalEarning.value}$`;
 
-                totalMoney.value = totalMoney.value + totalEarning.value;
+                totalMoney.value = totalMoney.value + price * (15 / 10);
                 totalMoney.innerHTML = `Total Money:${totalMoney.value}$`;
 
                 thisProcessButton.innerHTML = "Kazandın"
@@ -68,7 +68,7 @@ const buttonPressed = e => {
                     totalEarning.value = totalEarning.value + price * (15 / 10);
                     totalEarning.innerText = `Total Earning:${totalEarning.value}$`;
 
-                    totalMoney.value = totalMoney.value + totalEarning.value;
+                    totalMoney.value = totalMoney.value + price * (15 / 10);
                     totalMoney.innerHTML = `Total Money:${totalMoney.value}$`;
 
                     thisProcessButton.innerHTML = "Kazandın";
@@ -84,7 +84,7 @@ const buttonPressed = e => {
                     totalEarning.value = totalEarning.value + price * (15 / 10);
                     totalEarning.innerText = `Total Earning:${totalEarning.value}$`;
 
-                    totalMoney.value = totalMoney.value + totalEarning.value;
+                    totalMoney.value = totalMoney.value + price * (15 / 10);
                     totalMoney.innerHTML = `Total Money:${totalMoney.value}$`;
 
                     thisProcessButton.innerHTML = "Kazandın"
@@ -100,7 +100,7 @@ const buttonPressed = e => {
                     totalEarning.value = totalEarning.value + price * (15 / 10);
                     totalEarning.innerText = `Total Earning:${totalEarning.value}$`;
 
-                    totalMoney.value = totalMoney.value + totalEarning.value;
+                    totalMoney.value = totalMoney.value + price * (15 / 10);
                     totalMoney.innerHTML = `Total Money:${totalMoney.value}$`;
 
                     thisProcessButton.innerHTML = "Kazandın"
@@ -116,7 +116,7 @@ const buttonPressed = e => {
                     totalEarning.value = totalEarning.value + price * (15 / 10);
                     totalEarning.innerText = `Total Earning:${totalEarning.value}$`;
 
-                    totalMoney.value = totalMoney.value + totalEarning.value;
+                    totalMoney.value = totalMoney.value + price * (15 / 10);
                     totalMoney.innerHTML = `Total Money:${totalMoney.value}$`;
 
                     thisProcessButton.innerHTML = "Kazandın"
@@ -132,7 +132,7 @@ const buttonPressed = e => {
                     totalEarning.value = totalEarning.value + price * (15 / 10);
                     totalEarning.innerText = `Total Earning:${totalEarning.value}$`;
 
-                    totalMoney.value = totalMoney.value + totalEarning.value;
+                    totalMoney.value = totalMoney.value + price * (15 / 10);
                     totalMoney.innerHTML = `Total Money:${totalMoney.value}$`;
 
                     thisProcessButton.innerHTML = "Kazandın"
@@ -148,7 +148,7 @@ const buttonPressed = e => {
                     totalEarning.value = totalEarning.value + price * (15 / 10);
                     totalEarning.innerText = `Total Earning:${totalEarning.value}$`;
 
-                    totalMoney.value = totalMoney.value + totalEarning.value;
+                    totalMoney.value = totalMoney.value + price * (15 / 10);
                     totalMoney.innerHTML = `Total Money:${totalMoney.value}$`;
 
                     thisProcessButton.innerHTML = "Kazandın"
@@ -164,7 +164,7 @@ const buttonPressed = e => {
                     totalEarning.value = totalEarning.value + price * (15 / 10);
                     totalEarning.innerText = `Total Earning:${totalEarning.value}$`;
 
-                    totalMoney.value = totalMoney.value + totalEarning.value;
+                    totalMoney.value = totalMoney.value + price * (15 / 10);
                     totalMoney.innerHTML = `Total Money:${totalMoney.value}$`;
 
                     thisProcessButton.innerHTML = "Kazandın";
@@ -180,7 +180,7 @@ const buttonPressed = e => {
                     totalEarning.value = totalEarning.value + price * (15 / 10);
                     totalEarning.innerText = `Total Earning:${totalEarning.value}$`;
 
-                    totalMoney.value = totalMoney.value + totalEarning.value;
+                    totalMoney.value = totalMoney.value + price * (15 / 10);
                     totalMoney.innerHTML = `Total Money:${totalMoney.value}$`;
 
                     thisProcessButton.innerHTML = "Kazandın";
@@ -196,7 +196,7 @@ const buttonPressed = e => {
                     totalEarning.value = totalEarning.value + price * (15 / 10);
                     totalEarning.innerText = `Total Earning:${totalEarning.value}$`;
 
-                    totalMoney.value = totalMoney.value + totalEarning.value;
+                    totalMoney.value = totalMoney.value + price * (15 / 10);
                     totalMoney.innerHTML = `Total Money:${totalMoney.value}$`;
 
                     thisProcessButton.innerHTML = "Kazandın";
