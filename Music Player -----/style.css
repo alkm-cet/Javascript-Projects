@@ -1,0 +1,109 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /* background-image: url("https://yildirimzlm.s3.us-east-2.amazonaws.com/post-malone-2.jpeg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#container {
+    width: 450px;
+    height: 650px;
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    margin: 200px auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    backdrop-filter: blur(20px);
+}
+
+#picture {
+    width: 100%;
+    height: 400px;
+    /* border: 1px solid black; */
+    border-radius: 15px;
+    margin: -50px 0 0 70px;
+
+    box-shadow: 5px 5px 50px lightblue;
+}
+
+#img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+#musicName {
+    margin-top: 20px;
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 6%;
+    padding-left: 40px;
+
+    font-size: 25px;
+    color: rgba(255, 255, 255, .8);
+    overflow: hidden;
+}
+
+#artistName {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 10%;
+    padding-left: 40px;
+
+    font-size: 20px;
+    color: rgba(255, 255, 255, .8);
+}
+
+#range {
+    width: 80%;
+}
+
+#durationDiv {
+    /* border: 1px solid black; */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+
+    color: rgba(255, 255, 255, .8);
+    font-size: 20px;
+}
+
+#bottomDiv {
+    width: 100%;
+    height: 120px;
+    /* border: 1px solid black; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.material-symbols-outlined {
+    /* border: 1px solid black; */
+    scale: 2;
+    cursor: pointer;
+    margin: 20px 15px;
+    transition-duration: .3s;
+    color: rgba(255, 255, 255, .8);
+}
+
+.material-symbols-outlined:hover {
+    scale: 1.8;
+    color: rgb(180, 168, 168);
+}
+
+#volumeContainer{
+    /* border: 1px solid black; */
+    height: 100%;
+
+    scale: .75;
+    margin: -10px 0 0 0;
+}
