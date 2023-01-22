@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    border: 1px solid black;
+    width: 300px;
+    height: 400px;
+    margin: 20px auto;
+}
+
+#imgContainer {
+    border: 1px solid black;
+    width: 100%;
+    height: 50%;
+}
+
+#resim {
+    width: 100%;
+    height: auto;
+}
+
+#name {
+    border: 1px solid black;
+    width: 100%;
+    height: 12.5%;
+    padding: 0 20px;
+}
+
+#population {
+    border: 1px solid black;
+    width: 100%;
+    height: 12.5%;
+    padding: 0 20px;
+}
+
+#currency{
+    border: 1px solid black;
+    width: 100%;
+    height: 12.5%;
+    padding: 0 20px;
+}
+
+#language{
+    border: 1px solid black;
+    width: 100%;
+    height: 12.5%;
+    padding: 0 20px;
+}
+
+button{
+     margin: 0 250px ;
+    width: 100px;
+    height: 30px;
+    
+}
