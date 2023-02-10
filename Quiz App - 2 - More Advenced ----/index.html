@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+</head>
+<body>
+
+    <div id="container">
+        <h2 id="header">Sınava Başla</h2>
+
+        <div id="parent">
+
+            <span class = "spn" id="text_a" onclick="correctAnswer('a')">0</span>
+            <span class = "spn" id="text_b" onclick="correctAnswer('b')">1</span>
+            <span class = "spn" id="text_c" onclick="correctAnswer('c')">2</span>
+            <span class = "spn" id="text_d" onclick="correctAnswer('d')">3</span>
+
+        </div>
+
+        <button id="btn" class="button">Başla</button>
+        <button id="btn2" class="button" onclick="again()">Tekrar Dene</button>
+    </div>
+    
+</body>
+</html>
