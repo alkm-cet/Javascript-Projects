@@ -1,0 +1,553 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: gainsboro;
+}
+
+.header{
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    /* border: 1px solid black; */
+}
+
+.header-left-icons * {
+    cursor: pointer;
+    margin: 0px 10px ;
+}
+
+.header-right-parent{
+    /* border: 1px solid black; */
+    font-family: 'Oswald', sans-serif;
+    width: 10%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.header-right-menuicon{
+    cursor: pointer;
+    margin: 0px 15px;
+}
+
+/********************** H1 BAŞLIK */
+
+.blogNameContainer{
+    text-align: center;
+    /* border: 1px solid black; */
+    width: 40%;
+    margin: 50px auto;
+}
+
+.blogName{
+    font-size: 60px;
+    font-family: 'Satisfy', cursive;
+}
+
+/************************* GRID */
+
+.gridContainer{
+    display: grid;
+    margin: 20px auto;
+    /* border:1px solid black; */
+    max-width:1200px;
+    height:1600px;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows:1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap:15px;
+}
+
+.gridContainer *{
+    font-family: 'Raleway', sans-serif;
+}
+
+/************************* GRID1 */
+
+.grid1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start:1;
+    grid-row-end: 3;
+
+    background-image: url("https://happywall-img-gallery.imgix.net/727/cloudy_forest_display.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+
+    color: white;
+    
+}
+
+.grid1 > span{
+    font-family: 'Oswald', sans-serif;
+    margin: 10px 0px;
+    font-size: 18px;
+}
+
+.grid1 > h1{
+    font-family: 'Oswald', sans-serif;
+    margin: 0 0 50px 0;
+}
+
+/************************* GRID2 *************************/
+
+.grid2{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start:1;
+    grid-row-end: 3;
+
+    background-color:#ffffff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    text-align: center;
+
+}
+ 
+/*************************GRID ELEMENTS **************************/
+/*************************GRID ELEMENTS **************************/
+/*************************GRID ELEMENTS **************************/
+
+/* *********************IMG***************** */
+
+.gridImgContainer{
+    width: 100%;
+    height: 55%;
+}
+
+.gridImgContainer > img{
+    width: 100%;
+}
+
+/* *********************MID***************** */
+
+.gridMidContainer{
+    width: 100%;
+    height: 30%;
+}
+
+.gridMidContainer *{
+    margin: 10px;
+}
+
+.gridMidContainer > u{
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    color: #888888;
+}
+
+.gridMidContainer > h5 {
+    font-family: 'Oswald', sans-serif;
+    color: #2b2b2b;
+    font-size: 20px;
+}
+
+/* *********************BOTTOM*********** */
+.gridBottomContainer{
+    border-top: 1px groove lightgray;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+
+.gridBottomContainer > p{
+    font-size: 13px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.gridBottomRight{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: row;
+    width: 50%;
+}
+
+.gridBottomRight > p{
+    font-size: 13px;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.gridBottomRight *{
+    margin: 3px;
+}
+
+/*************************GRID ELEMENTS **************************/
+/*************************GRID ELEMENTS **************************/
+/*************************GRID ELEMENTS **************************/
+
+/************************* GRID3 */
+
+.grid3{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start:1;
+    grid-row-end: 3;
+
+    background-color:#ffffff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    text-align: center;
+}
+
+/************************* GRID4 *******************/
+
+.grid4{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start:3;
+    grid-row-end: 5;
+
+    background-color:#ffffff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    text-align: center;
+}
+
+/************************* GRID5 *******************/
+
+.grid5{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start:3;
+    grid-row-end: 5;
+
+    background-color:#ffffff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.grid5 *{
+    margin: 10px 0;
+}
+
+.grid5 > u{
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    color: #888888;
+}
+
+.grid5 > h5 {
+    font-family: 'Oswald', sans-serif;
+    color: #2b2b2b;
+    font-size: 20px;
+}
+
+.grid5 > p{
+    font-family: 'Oswald', sans-serif;
+    color: #2b2b2b;
+    font-size: 20px;
+}
+
+.grid5 > img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+/************************* GRID6 *******************/
+
+.grid6{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start:3;
+    grid-row-end: 5;
+
+    background-color:#ffffff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    text-align: center;
+}
+
+/************************* GRID7 *******************/
+
+.grid7{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start:3;
+    grid-row-end: 5;
+
+    position: relative;
+    background-color: #000;
+}
+
+.grid7::before{
+    content: ' ';
+    display: ;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    opacity: 0.5;
+    background:url("https://images.unsplash.com/photo-1414235077428-338989a2e8c0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80") no-repeat center center;
+    background-size: cover;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+    margin: 200px auto;
+    text-align: center;
+    position: relative;
+    width: 80%;
+    height: 600px;
+}
+
+.content > i{
+    font-family: 'Oswald', sans-serif;
+    color:white;
+}
+
+.content > p {
+    font-family: 'Oswald', sans-serif;
+    color:white;
+    font-size: 16px;
+}
+
+
+
+/************************* GRID8 *******************/
+
+.grid8{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start:5;
+    grid-row-end: 7;
+
+    background-color:#ffffff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    text-align: center;
+}
+
+
+/************************* GRID9 *******************/
+
+.grid9{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start:5;
+    grid-row-end: 7;
+
+    background-color:#ffffff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    text-align: center;
+}
+
+/************************* GRID10 *******************/
+
+.grid10{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 7;
+
+    position: relative;
+    background-color: #000;
+}
+
+.grid10::before{
+    content: ' ';
+    display: ;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    opacity: 0.75;
+    background:url("https://p4.wallpaperbetter.com/wallpaper/962/573/296/castles-castle-building-fog-wallpaper-preview.jpg") no-repeat center center;
+    background-size: cover;
+}
+
+#mail{
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    margin: 10px 0;
+    height: 50px;
+    border-radius: 5px;
+    background-color: transparent;
+    border:1px groove lightgrey;
+}
+
+/************************* GRID11 *******************/
+
+.grid11{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start:5;
+    grid-row-end: 7;
+
+    background-color:#ffffff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    text-align: center;
+}
+
+/************************* GRID12 *******************/
+
+.grid12{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start:7;
+    grid-row-end: 9;
+
+    background-color:#ffffff;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    text-align: center;
+}
+
+.fourImgContainer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    text-align: center;
+
+    width: 100%;
+
+    height: 60%;
+}
+
+.fourImgContainer > img {
+    width: 50%;
+    height: 50%;
+}
+
+.fourImgBottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 40%;
+}
+
+.fourImgBottom > p {
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.fourImgBottom > h3 {
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+/************************* GRID13 *******************/
+
+.grid13{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start:7;
+    grid-row-end: 9;
+
+    background-color:#ffffff;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    text-align: center;
+}
+
+.grid13 *{
+    cursor: pointer;
+    border-top: 1px groove lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 20%;
+    transition-duration: .3s;
+}
+
+.grid13 *:hover {
+    color: #888888;
+}
+
+/************************* GRID14 *******************/
+
+.grid14{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start:7;
+    grid-row-end: 9;
+
+    background-color:#ffffff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    text-align: center;
+}
+
+/************************* GRID15 *******************/
+
+.grid15{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start:7;
+    grid-row-end: 9;
+
+    background-color:#ffffff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    text-align: center;
+}
