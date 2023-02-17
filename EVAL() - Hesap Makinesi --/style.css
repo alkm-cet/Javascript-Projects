@@ -1,0 +1,27 @@
+* {
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+}
+
+#container{
+    margin: auto;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    width: 280px;
+    height: 430px;
+    border: 1px solid black;
+    justify-content: center;
+    gap: 5px;
+}
+
+#topBar{
+    width: 100%;
+    height: 80px;
+    text-align: right;
+}
+
+.btn{
+    width:30%;
+    height: 50px;
+}
