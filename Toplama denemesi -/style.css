@@ -1,0 +1,52 @@
+body{
+    background-color: aliceblue;
+}
+
+.container{
+    margin: 100px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    border-radius: 50px;
+    background-color: rgb(194, 187, 187);
+
+}
+
+input{
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+}
+
+button{
+    border-radius: 15px;
+    border: none;
+    width: 100px;
+    height: 30px;
+    transition-duration: .5s;
+    font: bold 15px tahoma;
+}
+
+button:hover{
+    border: none;
+    background-color: black;
+    color: white;
+    transition-duration: .5s;
+}
+
+.sonucbari{
+    background-color: white;
+    border-radius: 10px;
+    width: 110px;
+    height: 25px;
+    padding: 5px 0 0 10px;
+}
+
+span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: rgba(30, 31, 23, 0.911);

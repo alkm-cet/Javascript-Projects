@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+
+
+</head>
+
+
+<script>
+
+    function esitle() 
+     {
+      document.getElementById("box2").value
+      = document.getElementById("box1").value;
+      
+
+    }
+
+    function topla()
+    {
+
+        let sonuc=Number(document.getElementById("box1").value) 
+        + Number(document.getElementById("box2").value);
+
+        document.getElementById("cikti").innerHTML=sonuc;
+
+    }
+    
+</script>
+
+<body>
+
+
+<div class="container">
+    <span id="equal">Eşitle veya Topla</span>
+    <input class="box" id="box1" type="text">
+    <input class="box" id="box2" type="text">
+    <div id="cikti"><span>Sonuc..</span></div>
+    <button id="gobutton" onclick="esitle()">EŞİTLE</button>
+    <button id="topla" onclick="topla()">TOPLA</button>
+
+
+</div>
+
+
+
+
+
+
+
+
+</body>
+
+</html>
