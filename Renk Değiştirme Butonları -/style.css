@@ -1,0 +1,54 @@
+body{
+    background-color: white;
+}
+
+
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items:center;
+    margin:200px auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    background-color: dimgrey;
+}
+
+.btn{
+    cursor: pointer;
+    width: 140px;
+    height: 30px;
+    border-radius: 20px;
+    border:none;
+    transition-duration: .5s;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#btn1:hover{
+    font-size: 15px;
+    background-color:black;
+    color: white;
+    transition-duration: .5s;
+}
+
+#btn2:hover{
+    font-size: 15px;
+    background-color:blue;
+    color: white;
+    transition-duration: .5s;
+}
+
+#btn3:hover{
+    font-size: 15px;
+    background-color:orange;
+    color: white;
+    transition-duration: .5s;
+}
+
+#btn4:hover{
+    font-size: 15px;
+    background-color:green;
+    color: white;
+    transition-duration: .5s;
+}
