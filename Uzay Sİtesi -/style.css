@@ -1,0 +1,110 @@
+body{
+    /* background-color:#1d2026 ;  */
+    background-image: url("./img/img1.png");
+    font-family: 'PT Sans', sans-serif;
+    color:antiquewhite;
+    margin: 0;
+}
+
+#header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    background-color:transparent;
+}
+
+#logo{
+    width: 100px;
+    border-radius: 50%;
+}
+
+
+ol{
+    font-size: 35px;
+    cursor: pointer;
+    display: inline;
+    transition-duration: .3s;
+    color:antiquewhite;
+}
+
+ol:hover{
+    text-decoration:underline;
+    font-size: 40px;
+    transition-duration: .3s;
+    
+}
+
+#govde{
+    margin: 100px auto;
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: row;
+    align-items: center;
+    background-color:tran;
+    width:auto;
+    background-color: transparent;
+}
+
+#yazi1{
+    border-radius: 20px;
+    border: 1px solid white;
+    width:400px;
+    background-color:transparent;
+    text-align: center;
+    padding:20px ;
+    font-size: 20px;
+}
+
+#dunya{
+    width: 500px;
+    height: 500px;
+    animation: roll 80s infinite;
+}
+
+@keyframes roll{
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#formContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+}
+
+form{
+    margin: 20px;
+    width: 800px;
+}
+
+#child1{
+    width:100%;
+    height: 70px;
+}
+
+#child2{
+    width:auto;
+    height: 20px;
+}
+
+button{
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    margin: 20px 0 0 0;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
+    transition-duration: .3s;
+}
+button:hover{
+    background-color: cornflowerblue;
+    color: antiquewhite;
+   width: 220px;
+}
