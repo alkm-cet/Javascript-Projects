@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="2style.css">
+<link rel="stylesheet" href="3style.css">
+<script src="script.js"></script>
+
+<body>
+    
+    <div id="ustContainer">
+        <a href="index.html"><img id="logo" src="https://logolook.net/wp-content/uploads/2021/01/Fanta-Logo-2001.png" alt=""></a>
+      <div id="buttonContainer">
+        <a href="index.html">
+          <button class="button" id="home">Home</button>
+        </a>
+        <a href="2index.html" target="" rel="noopener noreferrer">
+         <button class="button" id="comments">Comments</button>
+        </a>
+        <a href="3index.html" target="" rel="noopener noreferrer">
+         <button class="button" id="calculate">Calculate</button>
+        </a>
+      </div>
+    </div>
+    
+  
+    <div id="lastContainer">
+        <span class="sonSpan">Eğer günde</span>
+
+      <input id="box1" type="text" placeholder="  Günde içtiğin Fanta sayısı">
+
+        <span class="sonSpan">Haftada da</span>
+
+      <input id="box2" type="text" placeholder="  Haftada kaç gün içtiğin">
+
+        <span class="sonSpan">Yılda alacağın kalori miktarı</span>
+
+      <div class="sonucbari" id="carpmasonucu" >Sonuc..</div>
+
+      <span class="sonSpan">Kadar olur!</span>
+
+      <button onclick="hesapla()">Hesap Et!</button>
+
+    </div>
+
+
+
+</body>
+</html>
